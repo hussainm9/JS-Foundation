@@ -4,10 +4,10 @@
 */
 let teaTypes = ["green tea", "black tea", "chai", "oolong tea"]
 let selectedTeas = []
-for (let i=0; i < teaTypes.length;i++){
-   if (teaTypes[i] == "chai"){
+for (let i = 0; i < teaTypes.length; i++) {
+   if (teaTypes[i] == "chai") {
       break;
-   }else {
+   } else {
       selectedTeas.push(teaTypes[i])
    }
 }
@@ -18,10 +18,10 @@ console.log(selectedTeas);
 */
 let cities = ["London", "New York", "Paris", "Berlin"]
 let visitedCities = []
-for(let i =0; i<cities.length; i++){
-   if(cities[i] == 'Paris'){
+for (let i = 0; i < cities.length; i++) {
+   if (cities[i] == 'Paris') {
       continue;
-   }else{
+   } else {
       visitedCities.push(cities[i])
    }
 }
@@ -33,10 +33,10 @@ console.log(visitedCities);
 */
 let numbers = [1, 2, 3, 4, 5]
 let smallNumbers = []
-for(const key of numbers){
-   if(key == 4){
+for (const key of numbers) {
+   if (key == 4) {
       break
-   }else{
+   } else {
       smallNumbers.push(key)
    }
 }
@@ -47,10 +47,10 @@ console.log(smallNumbers);
 */
 let teas = ["chai", "green tea", "herbal tea", "black tea"]
 let preferredTeas = []
-for (const ele of teas){
-   if(ele == "herbal tea"){
+for (const ele of teas) {
+   if (ele == "herbal tea") {
       continue;
-   }else{
+   } else {
       preferredTeas.push(ele)
    }
 }
@@ -77,10 +77,10 @@ let citiesPopulation = {
 
 let allPreviousCities = {}
 
-for(const key in citiesPopulation ){
-   if (key == 'Berlin'){
+for (const key in citiesPopulation) {
+   if (key == 'Berlin') {
       break;
-   }else{
+   } else {
       allPreviousCities[key] = citiesPopulation[key]
    }
 }
@@ -105,11 +105,11 @@ let worldCities = {
    "Paris": 2200000
 };
 let largeCities = {}
-let minPopulation = 3000000 
-for (const key in worldCities){
-   if (worldCities[key] <= minPopulation ){
+let minPopulation = 3000000
+for (const key in worldCities) {
+   if (worldCities[key] <= minPopulation) {
       continue;
-   }else{
+   } else {
       largeCities[key] = worldCities[key]
    }
 }
@@ -124,12 +124,12 @@ console.log(largeCities);
 let totalTeas = ["earl grey", "green tea", "chai", "oolong tea"];
 let availableTeas = []
 let stopAdding = false
-totalTeas.forEach(function(ele){
-   if(ele == 'chai'){
+totalTeas.forEach(function (ele) {
+   if (ele == 'chai') {
       stopAdding = true
       return;
    }
-   if(stopAdding == false){
+   if (stopAdding == false) {
       availableTeas.push(ele)
    }
 })
@@ -142,8 +142,8 @@ console.log(availableTeas);
 
 let totalCities = ["Berlin", "Tokyo", "Sydney", "Paris"]
 let traveledCities = []
-totalCities.forEach(function(ele){
-   if(ele == 'Sydney'){
+totalCities.forEach(function (ele) {
+   if (ele == 'Sydney') {
       return
    }
    traveledCities.push(ele)
@@ -157,11 +157,11 @@ console.log(traveledCities);
 let numberCollection = [2, 5, 7, 9]
 let skippingValue = 7
 let doubledNumbers = []
-for(let i = 0; i<numberCollection.length;i++){
-   if(numberCollection[i] == skippingValue){
+for (let i = 0; i < numberCollection.length; i++) {
+   if (numberCollection[i] == skippingValue) {
       continue;
    }
-   doubledNumbers.push(numberCollection[i] *2)
+   doubledNumbers.push(numberCollection[i] * 2)
 }
 console.log(doubledNumbers);
 
@@ -173,8 +173,8 @@ console.log(doubledNumbers);
 
 let teaCollection = ["chai", "green tea", "black tea", "jasmine tea", "herbal tea"]
 let shortTeas = []
-for (const ele of teaCollection){
-   if(!(ele.length >10)){
+for (const ele of teaCollection) {
+   if (!(ele.length > 10)) {
       shortTeas.push(ele)
    }
 }

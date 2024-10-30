@@ -1,5 +1,5 @@
 //objects
-const person  = {
+const person = {
     firstName: 'Mehmood',
     isAuthenticated: true
 }
@@ -10,13 +10,13 @@ const person  = {
 // a = 200
 // console.log(a,'a'); //TypeError: Assignment to constant variable.
 
-console.log(person.firstName,'firstName');
+console.log(person.firstName, 'firstName');
 person["last name"] = 'Hussain'
-console.log(person,'peerso');
+console.log(person, 'peerso');
 
 //arrays
 const heros = ["batman", "superman"]
- 
+
 //properties of object
 const today = new Date()
 console.log(today.getDate());

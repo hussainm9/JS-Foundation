@@ -9,11 +9,11 @@ let remainder = 9 % 2
 let exponent = 2 ** 4
 //increment and decrement
 let myScore = 110
-myScore  ++
-console.log(myScore,'myScore')
+myScore++
+console.log(myScore, 'myScore')
 let credits = 56
-credits --
-console.log(credits,'credits');
+credits--
+console.log(credits, 'credits');
 //comparison operators
 let num1 = 3
 let num2 = 3

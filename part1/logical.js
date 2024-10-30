@@ -1,7 +1,7 @@
 // && - and operator
 // || - or operator
 //  ! - not operator 
-let isLoggedIn = true 
+let isLoggedIn = true
 let isPaid = false
 console.log(isLoggedIn && isPaid)
 
@@ -17,11 +17,11 @@ console.log(!is10GreaterThan11);
 let assign = 80
 assign = 100
 assign += 40
-console.log(assign,'assign'); //140
+console.log(assign, 'assign'); //140
 //similarly for sub,mul,div\
 //______________________________________
 // use paranthesis for calculating
-let operation = (((3 + (3 * 5)) /2) * 6) //54
+let operation = (((3 + (3 * 5)) / 2) * 6) //54
 // let operation = 3 + 3 * 5 /2 * 6 //48
 
-console.log(operation,'operation');
+console.log(operation, 'operation');

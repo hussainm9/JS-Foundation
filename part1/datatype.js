@@ -22,7 +22,7 @@ let isAuthenticated = true
 
 let teaTypes = ["green", "lemon", "orange"]
 
-let person = [{name:'nmd', age:21}]
+let person = [{ name: 'nmd', age: 21 }]
 
 let c = b
 

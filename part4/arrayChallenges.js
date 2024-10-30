@@ -60,7 +60,7 @@ let hardCopyCities = [...topCities]
 */
 let europeanCities = ['paris', 'rome']
 let asianCities = ['tokyo', 'bangkok']
-let worldCities = [...europeanCities,...asianCities]
+let worldCities = [...europeanCities, ...asianCities]
 // let worldCities = europeanCities.concat(asianCities);
 
 // console.log(worldCities,'world cities');
@@ -75,6 +75,6 @@ let menuLength = teaMenu.length
 10. You have an array named `cityBucketList` containing `"Kyoto"`, `"London"`, `"Cape Town"`, and `"Vancouver"`. 
     Check if `"London"` is in the array and store the result in a variable named `isLondonInList`.
 */
-let cityBucketList = ['kyoto', 'London', 'cape town', 'vancouver' ]
+let cityBucketList = ['kyoto', 'London', 'cape town', 'vancouver']
 let isLondonInList = cityBucketList.includes('London')
 // console.log(isLondonInList,'isLondonIsInList');
