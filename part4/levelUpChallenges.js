@@ -2,24 +2,59 @@
 1. Write a `for` loop that loops through the array `["green tea", "black tea", "chai", "oolong tea"]` and stops the loop when it finds `"chai"`. 
    Store all teas before `"chai"` in a new array named `selectedTeas`.
 */
-
-
+let teaTypes = ["green tea", "black tea", "chai", "oolong tea"]
+let selectedTeas = []
+for (let i=0; i < teaTypes.length;i++){
+   if (teaTypes[i] == "chai"){
+      break;
+   }else {
+      selectedTeas.push(teaTypes[i])
+   }
+}
+console.log(selectedTeas);
 /* 
 2. Write a `for` loop that loops through the array `["London", "New York", "Paris", "Berlin"]` and skips `"Paris"`. 
    Store the other cities in a new array named `visitedCities`.
 */
-
+let cities = ["London", "New York", "Paris", "Berlin"]
+let visitedCities = []
+for(let i =0; i<cities.length; i++){
+   if(cities[i] == 'Paris'){
+      continue;
+   }else{
+      visitedCities.push(cities[i])
+   }
+}
+console.log(visitedCities);
 
 /* 
 3. Use a `for-of` loop to iterate through the array `[1, 2, 3, 4, 5]` and stop when the number `4` is found. 
    Store the numbers before `4` in an array named `smallNumbers`.
 */
-
+let numbers = [1, 2, 3, 4, 5]
+let smallNumbers = []
+for(const key of numbers){
+   if(key == 4){
+      break
+   }else{
+      smallNumbers.push(key)
+   }
+}
+console.log(smallNumbers);
 /* 
 4. Use a `for-of` loop to iterate through the array `["chai", "green tea", "herbal tea", "black tea"]` and skip `"herbal tea"`. 
    Store the other teas in an array named `preferredTeas`.
 */
-
+let teas = ["chai", "green tea", "herbal tea", "black tea"]
+let preferredTeas = []
+for (const ele of teas){
+   if(ele == "herbal tea"){
+      continue;
+   }else{
+      preferredTeas.push(ele)
+   }
+}
+console.log(preferredTeas);
 
 /* 
 5. Use a `for-in` loop to loop through an object containing city populations. 
